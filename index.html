@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/tabs.css">
+	<link rel="stylesheet" href="css/local.css">
+	
+
+	
+	<title>Randomizer Tool</title>
+</head>
+<body>
+	<div id="hiddenStuff" aria-hidden="true" hidden>
+		<svg aria-hidden="true" focusable="false" id="icons" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<symbol id="icon-github" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+			</symbol>
+			
+			<symbol id="icon-twitter" viewBox="0 0 48 48">
+				<circle cx="24" cy="24" fill="#fff" r="24"/>
+				<path d="M36.8 15.4c-.9.5-2 .8-3 .9 1.1-.7 1.9-1.8 2.3-3.1-1 .6-2.1 1.1-3.4 1.4-1-1.1-2.3-1.8-3.8-1.8-2.9 0-5.3 2.5-5.3 5.7 0 .4 0 .9.1 1.3-4.4-.2-8.3-2.5-10.9-5.9-.5.8-.7 1.8-.7 2.9 0 2 .9 3.7 2.3 4.7-.9 0-1.7-.3-2.4-.7v.1c0 2.7 1.8 5 4.2 5.6-.4.1-.9.2-1.4.2-.3 0-.7 0-1-.1.7 2.3 2.6 3.9 4.9 3.9-1.8 1.5-4.1 2.4-6.5 2.4-.4 0-.8 0-1.3-.1 2.3 1.6 5.1 2.6 8.1 2.6 9.7 0 15-8.6 15-16.1v-.7c1.2-1 2.1-2 2.8-3.2z" fill="#000"/>
+			</symbol>
+		</svg>
+	</div>
+	
+	<header aria-labelledby="h1">
+		<a class="skipnavlink offscreen" href="#main">
+			Skip to main content
+		</a>
+		<h1 id="h1" class="page-centered-content">
+			Randomization Tool
+		</h1>
+	</header>
+	
+	<main id="main" class="page-centered-content">
+	
+		<div class="tabs">
+			<div class="tab-controls">
+				<button class="add-tab">
+					<span class="plus-icon"></span>
+					<span class="text">Add Tab</span>
+				</button>
+				<button class="previous" aria-label="previous tab">
+					<span class="previous-icon"></span>
+					<span class="text offscreen">Previous Tab</span>
+				</button>
+				<div role="tablist" aria-label="Entertainment">
+
+					<button role="tab" aria-selected="true" aria-controls="tab_1" id="tab_1_control">
+						Nils Frahm
+					</button>
+				</div>
+				<button class="next" aria-label="next tab">
+					<span class="next-icon"></span>
+					<span class="text offscreen">Next Tab</span>
+				</button>
+				<button class="tab-list" aria-label="list of tabs">
+					-
+				</button>
+			</div>
+			<div tabindex="0" role="tabpanel" id="tab_1" aria-labelledby="tab_1">
+		
+			</div>
+		</div>
+	</main>
+
+	<footer aria-label="Additional Information">
+		<div class="page-centered-content">
+			<img id="avatar" src="https://metageeky.github.io/resources/avatar-bg.png" alt="Cartoon avatar of a bespectacled brunette geek girl in a green hoodie in front of a bookcase" />
+			<div>
+				a metageeky production
+			</div>
+			<div class="spacer"></div>
+			<a class="social-media" href="https://twitter.com/metageeky">
+				<svg><use xlink:href="#icon-twitter"></use></svg>
+				<span>twitter</span>
+			</a>
+			<a class="social-media" href="https://github.com/metageeky">
+				<svg><use xlink:href="#icon-github"></use></svg>
+				<span>github</span>
+			</a>
+		</div>
+	</footer>
+	
+	<script src="js/tabs.js"></script>
+</body>
+</html>
+
+
+				
+		
